@@ -1,8 +1,11 @@
 from main import get_database
-import json
+from auto_gen import *
+#import json
 
 db = get_database()
 
+# Insercion por JSON
+'''
 docs = ['animales', 'cultivos', 'maquinarias', 'producciones', 'trabajadores']
 
 for doc in docs:
@@ -11,8 +14,29 @@ for doc in docs:
     coleccion = db[doc]
     coleccion.insert_many(data)
     print('OK')
+'''
 
-coleccion = db['producciones']
-item_details = coleccion.find({"precio_final": {"$gt": 2500}})
-for item in item_details:
-  print(item["tipo"], item["cantidad"], item["calidad"], item["precio_final"], item["peso"])
+# Documentos de producciones
+'''coleccion = db['producciones']
+datos = generar_productos(50)
+coleccion.insert_many(datos)
+'''
+
+# Documentos de animales
+'''coleccion = db['animales']
+datos = generar_animales(50)
+coleccion.insert_many(datos)
+'''
+
+# Documentos de cultivos
+'''coleccion = db['cultivos']
+datos = generar_cultivos(50)
+coleccion.insert_many(datos)
+'''
+
+# Documentos de maquinarias
+coleccion = db['maquinarias']
+datos = generar_maquinarias(50)
+coleccion.insert_many(datos)
+
+# Documentos de trabajadores
