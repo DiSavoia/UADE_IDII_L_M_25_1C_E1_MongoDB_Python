@@ -1,0 +1,35 @@
+[
+    {
+      "Nombre": "Tractor Principal",
+      "Marca": "John Deere",
+      "Tipo": "Tractores",
+      "Antigüedad": 5,
+      "Mantenimiento": true,
+      "Fecha Ultima Reparación": "2024-11-15",
+      "Fecha Ultima Revisión": "2025-02-10",
+      "Precio": 75000.00,
+      "Capacidad de Combustible": "150 L"
+    },
+    {
+      "Nombre": "Cosechadora Norte",
+      "Marca": "Challenger",
+      "Tipo": "Cosechadoras",
+      "Antigüedad": 3,
+      "Mantenimiento": false,
+      "Fecha Ultima Reparación": "2023-08-22",
+      "Fecha Ultima Revisión": "2024-12-05",
+      "Precio": 120000.00,
+      "Capacidad de Combustible": "300 L"
+    },
+    {
+      "Nombre": "Sembradora Precision Plant 3000",
+      "Marca": "John Deere",
+      "Tipo": "Neumática de precisión",
+      "Antigüedad": 5,
+      "Mantenimiento": true,
+      "Fecha Ultima Reparación": "2023-10-12",
+      "Fecha Ultima Revisión": "2024-11-20",
+      "Precio": 75000.00,
+      "Capacidad de Combustible": "200 litros"
+    }
+  ]

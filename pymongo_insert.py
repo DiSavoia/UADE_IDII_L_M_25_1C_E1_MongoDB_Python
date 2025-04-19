@@ -1,40 +1,18 @@
 from main import get_database
+import json
+
 db = get_database()
-collection_name = db["Produccion"]
 
-item_1 = {
-  "tipo" : "miel",
-  "cantidad" : "5",
-  "calidad" : "pura",
-  "precio_final" : 3000,
-  "peso" : "5"
-}
+docs = ['animales', 'cultivos', 'maquinarias', 'producciones', 'trabajadores']
 
-item_2 = {
-  "tipo" : "harina",
-  "cantidad" : "6",
-  "calidad" : "000",
-  "precio_final" : 2500,
-  "peso" : "150"
-}
+for doc in docs:
+  with open('./json/' + doc + '.json') as file:
+    data = json.load(file)
+    coleccion = db[doc]
+    coleccion.insert_many(data)
+    print('OK')
 
-
-"""
-
-Tipo 
-  Huevo 
-  Leche
-  Carne 
-  Miel 
-  Lana 
-  Harina
-Cantidad 
-Calidad 
-Precio Final 
-Peso 
-
-"""
-
-item_details = collection_name.find({"precio_final": {"$gt": 2500}})
+coleccion = db['producciones']
+item_details = coleccion.find({"precio_final": {"$gt": 2500}})
 for item in item_details:
   print(item["tipo"], item["cantidad"], item["calidad"], item["precio_final"], item["peso"])

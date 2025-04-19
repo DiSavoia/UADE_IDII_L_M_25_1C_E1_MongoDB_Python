@@ -1,0 +1,122 @@
+[
+    {
+      "tipo": "abeja",
+      "peso": 25,
+      "edad": 2,
+      "poblacion": 30000
+    },
+    {
+      "tipo": "abeja",
+      "peso": 22,
+      "edad": 3,
+      "poblacion": 41000
+    },
+    {
+      "tipo": "vaca",
+      "peso": 95,
+      "edad": 7,
+      "genero": "F"
+    },
+    {
+      "tipo": "cerdo",
+      "peso": 60,
+      "edad": 3,
+      "genero": "M"
+    },
+    {
+      "tipo": "oveja",
+      "peso": 75,
+      "edad": 6,
+      "genero": "F"
+    },
+    {
+      "tipo": "caballo",
+      "peso": 90,
+      "edad": 8,
+      "genero": "M"
+    },
+    {
+      "tipo": "perro",
+      "peso": 55,
+      "edad": 4,
+      "genero": "F"
+    },
+    {
+      "tipo": "vaca",
+      "peso": 85,
+      "edad": 5,
+      "genero": "M"
+    },
+    {
+      "tipo": "cerdo",
+      "peso": 70,
+      "edad": 2,
+      "genero": "F"
+    },
+    {
+      "tipo": "oveja",
+      "peso": 65,
+      "edad": 3,
+      "genero": "M"
+    },
+    {
+      "tipo": "caballo",
+      "peso": 100,
+      "edad": 10,
+      "genero": "F"
+    },
+    {
+      "tipo": "perro",
+      "peso": 50,
+      "edad": 1,
+      "genero": "M"
+    },
+    {
+      "tipo": "gallina",
+      "peso": 30,
+      "edad": 4,
+      "genero": "F"
+    },
+    {
+      "tipo": "conejo",
+      "peso": 25,
+      "edad": 5,
+      "genero": "M"
+    },
+    {
+      "tipo": "gallina",
+      "peso": 35,
+      "edad": 2,
+      "genero": "F"
+    },
+    {
+      "tipo": "conejo",
+      "peso": 28,
+      "edad": 3,
+      "genero": "F"
+    },
+    {
+      "tipo": "gallina",
+      "peso": 32,
+      "edad": 6,
+      "genero": "M"
+    },
+    {
+      "tipo": "conejo",
+      "peso": 30,
+      "edad": 4,
+      "genero": "M"
+    },
+    {
+      "tipo": "gallina",
+      "peso": 29,
+      "edad": 7,
+      "genero": "F"
+    },
+    {
+      "tipo": "conejo",
+      "peso": 27,
+      "edad": 3,
+      "genero": "F"
+    }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "dni":43031216,
+    "nombre" : "Juan",
+    "apellido" : "Martinez",
+    "edad" : 24,
+    "puesto" : "Capataz",
+    "antiguedad" : 2,
+    "salario":5000
+  },
+  {
+    "dni":25632145,
+    "nombre" : "Antonia",
+    "apellido" : "Martinez",
+    "edad" : 62,
+    "puesto" : "Recolector",
+    "antiguedad" : 20,
+    "salario":1000
+  },
+  {
+    "dni":49025213,
+    "nombre" : "Santiago",
+    "apellido" : "Martinez",
+    "edad" : 104,
+    "puesto" : "Pastor",
+    "antiguedad" : 0,
+    "salario":500
+  },
+  {
+    "dni":32659852,
+    "nombre" : "Martin",
+    "apellido" : "Martinez",
+    "edad" : 42,
+    "puesto" : "Granjero",
+    "antiguedad" : 15,
+    "salario":2000
+  },
+  {
+    "dni":15236958,
+    "nombre" : "Sebastian",
+    "apellido" : "Driussi",
+    "edad" : 89,
+    "puesto" : "Cuidador",
+    "antiguedad" : 70,
+    "salario":7000
+  },
+  {
+    "dni":5632596,
+    "nombre" : "Leonardo",
+    "apellido" : "Ponzio",
+    "edad" : 65,
+    "puesto" : "Adiestrador",
+    "antiguedad" : 30,
+    "salario":4000
+  },
+  {
+    "dni":5632597,
+    "nombre" : "Paulo",
+    "apellido" : "Diaz",
+    "edad" : 65,
+    "puesto" : "Transportista",
+    "antiguedad" : 26,
+    "salario":2000
+  },
+  {
+    "dni":56325451,
+    "nombre" : "Esteban",
+    "apellido" : "Gimenez",
+    "edad" : 20,
+    "puesto" : "Distribuidor",
+    "antiguedad" : 45,
+    "salario":2000
+  },
+  {
+    "dni":5632597,
+    "nombre" : "Matias",
+    "apellido" : "Martinez",
+    "edad" : 10,
+    "puesto" : "Contador",
+    "antiguedad" : 0,
+    "salario":8000
+  }
+]

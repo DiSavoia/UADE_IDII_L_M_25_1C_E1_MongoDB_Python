@@ -1,0 +1,80 @@
+[
+    {
+       
+        "tipo": "Albahaca",
+        "fecha_plantacion": "2024-07-13",
+        "fecha_ultimo_riego": "2025-04-6",
+        "estado_riego": "Finalizado",
+        "fecha_estimada_recoleccion": "2025-06-13",
+        "estado_salud": "Saludable",
+        "produccion_estimada": 200,
+        "produccion_acumulada": 150,
+        "precio": 10000
+    },
+    {
+        "tipo": "Papa",
+        "fecha_plantacion": "2024-10-15",
+        "fecha_ultimo_riego": "2025-04-07",
+        "estado_riego": "En transcurso",
+        "fecha_estimada_recoleccion": "2025-06-15",
+        "estado_salud": "Plagado",
+        "produccion_estimada": 250,
+        "produccion_acumulada": 175,
+        "precio": 5000
+    },
+    {
+        "tipo": "Soja",
+        "fecha_plantacion": "2024-08-05",
+        "fecha_ultimo_riego": "2025-04-05",
+        "estado_riego": "Finalizado",
+        "fecha_estimada_recoleccion": "2025-07-01",
+        "estado_salud": "Saludable",
+        "produccion_estimada": 340,
+        "produccion_acumulada": 200,
+        "precio": 9000
+    },
+    {
+        "tipo": "Tomate",
+        "fecha_plantacion": "2024-10-23",
+        "fecha_ultimo_riego": "2025-04-06",
+        "estado_riego": "Finalizado",
+        "fecha_estimada_recoleccion": "2025-10-25",
+        "estado_salud": "Saludable",
+        "produccion_estimada": 150,
+        "produccion_acumulada": 96,
+        "precio": 10000
+    },
+    {
+        "tipo": "Maiz",
+        "fecha_plantacion": "2024-06-20",
+        "fecha_ultimo_riego": "2025-04-08",
+        "estado_riego": "Finalizado",
+        "fecha_estimada_recoleccion": "2025-05-27",
+        "estado_salud": "Plagado",
+        "produccion_estimada": 240,
+        "produccion_acumulada": 210,
+        "precio": 6000
+    },
+    {
+        "tipo": "Trigo",
+        "fecha_plantacion": "2024-08-15",
+        "fecha_ultimo_riego": "2025-04-07",
+        "estado_riego": "Finalizado",
+        "fecha_estimada_recoleccion": "2025-07-02",
+        "estado_salud": "Saludable",
+        "produccion_estimada": 315,
+        "produccion_acumulada": 175,
+        "precio": 12000
+    },
+    {
+        "tipo": "Algodon",
+        "fecha_plantacion": "2024-07-01",
+        "fecha_ultimo_riego": "2025-04-05",
+        "estado_riego": "Finalizado",
+        "fecha_estimada_recoleccion": "2025-05-05",
+        "estado_salud": "Saludable",
+        "produccion_estimada": 215,
+        "produccion_acumulada": 210,
+        "precio": 4000
+    }
+]
