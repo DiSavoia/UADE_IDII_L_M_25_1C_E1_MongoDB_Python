@@ -21,6 +21,8 @@ def generar_productos(n):
 
     return productos
 
+
+
 def generar_animales(n):
     tipos = ['caballo', 'cerdo', 'perro', 'abeja', 'oveja', 'gallina', 'conejo']
     generos = ['macho', 'hembra']
@@ -92,3 +94,35 @@ def generar_maquinarias(n):
                     }
         productos.append(producto)  
     return productos
+
+
+def generar_trabajadores(n):   
+    fake = Faker('es_ES') 
+    
+    
+    puestos_granja = [
+    "Recolectores",
+    "Pastores",
+    "Granjeros",
+    "Capataz",
+    "Adiestradores / Entrenadores",
+    "Cuidadores",
+    "Transportistas",
+    "Contadores",
+    "Distribuidores"
+]
+    
+    trabajadores=[]
+    for _ in range(n):       
+        producto = { 
+                    "DNI": random.randint(10000000,99999999)  ,        
+                    "Nombre": fake.first_name(),          
+                    "Apellido": fake.last_name(),          
+                    "Edad": random.randint(18, 80),           
+                    "Puesto": random.choice(puestos_granja),       
+                    "Antiguedad": random.randint(1,60),  
+                    "Salario": random.randint(2000,8000),  
+                    
+                    } 
+        trabajadores.append(producto)   
+    return trabajadores
