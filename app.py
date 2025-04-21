@@ -11,7 +11,6 @@ def get_cultivos():
     cultivos = db["cultivos"] 
     data = list(cultivos.find({}, {"_id": 0}))
     return jsonify(data) 
-
  
 @app.route('/trabajadores', methods=['GET'])
 def get_trabajadores():
@@ -38,4 +37,4 @@ def get_producciones():
     return jsonify(data)
 
 if __name__ == '__main__': 
-    app.run(debug=True) 
+    app.run(debug=True)
