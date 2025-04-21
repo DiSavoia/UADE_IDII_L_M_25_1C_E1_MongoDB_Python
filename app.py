@@ -26,7 +26,7 @@ def get_animales():
 
 @app.route('/maquinarias', methods=['GET'])
 def get_maquinarias():
-    maquinarias = db["Maquinarias"]
+    maquinarias = db["maquinarias"]
     data = list(maquinarias.find({}, {"_id": 0}))
     return jsonify(data)
 

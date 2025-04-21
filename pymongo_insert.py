@@ -17,22 +17,19 @@ for doc in docs:
 '''
 
 # Documentos de producciones
-'''coleccion = db['producciones']
+coleccion = db['producciones']
 datos = generar_productos(50)
 coleccion.insert_many(datos)
-'''
 
 # Documentos de animales
-'''coleccion = db['animales']
+coleccion = db['animales']
 datos = generar_animales(50)
 coleccion.insert_many(datos)
-'''
 
 # Documentos de cultivos
-'''coleccion = db['cultivos']
+coleccion = db['cultivos']
 datos = generar_cultivos(50)
 coleccion.insert_many(datos)
-'''
 
 # Documentos de maquinarias
 coleccion = db['maquinarias']
@@ -40,3 +37,6 @@ datos = generar_maquinarias(50)
 coleccion.insert_many(datos)
 
 # Documentos de trabajadores
+coleccion = db['trabajadores']
+datos = generar_trabajadores(50)
+coleccion.insert_many(datos)
